@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+}
+
+
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main div{
+    margin: 10px;
+}
+.main button{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    background-color: aquamarine;
+    border-radius: 5%;
+    transition: background-color 0.25s, color 0.25s, font-size 0.25s;
+}
+.main button:hover{
+    background-color: red;
+    color: white;
+    font-size: 1.2em;
+}

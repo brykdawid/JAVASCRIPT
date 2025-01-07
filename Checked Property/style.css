@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    text-align: left;
+    margin: auto;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    text-align: center;
+}
