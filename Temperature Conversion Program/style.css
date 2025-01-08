@@ -8,7 +8,7 @@
     
 
 .temperatureConverter{
-    width: 300px;
+    width: auto;
     height: auto;
     border: 1px solid black;
     text-align: center;
