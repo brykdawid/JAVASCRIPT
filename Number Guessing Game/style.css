@@ -1,0 +1,33 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    text-align: center;
+}
+div{
+    width: 100%;
+    text-align: center;
+}
+input{
+    width: 70px;
+}
+button{
+    border: 5%;
+    font-size: 1.2em;
+    transition: font-size 0.25s, background-color 0.25s, color 0,25s;
+}
+button:hover{
+    font-size: 1.3em;
+    background-color: red;
+    color: white;
+}
+p{
+    text-align: center;
+}
+#guessDiv{
+    width: 100%;
+    text-align: center;
+}
+#guessDiv input{
+    width: 130px;
+}

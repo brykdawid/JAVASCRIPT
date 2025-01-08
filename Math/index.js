@@ -13,7 +13,7 @@ let z;
 
 //z = Math.round(x)
 //z = Math.floor(x); 
-//z = Math.ceil(x);
+//z = Math.ciel(x);
 //z = Math.trunc(x);
 //z = Math.pow(x, y);
 z = Math.sqrt(x);

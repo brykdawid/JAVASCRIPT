@@ -1,0 +1,43 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+.container {
+        display: flex;
+        justify-content: center;
+}
+    
+
+.temperatureConverter{
+    width: 300px;
+    height: auto;
+    border: 1px solid black;
+    text-align: center;
+    box-shadow: 5px 5px 30px rgb(0, 0, 0);
+    border-radius: 2%;
+}
+#temperatureAmount{
+    height: 15%;
+    width: 30%;
+    font-size: 1.5em;
+    text-align: center;
+}
+h1{
+    color: rgb(109, 169, 248);
+}
+label{
+    font-weight: bold;
+}
+#submitBtn{
+    margin: 10px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 1.2em;
+    border-radius: 5%;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+}
+#resultOutput{
+    padding-bottom: 15px;
+}
