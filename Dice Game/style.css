@@ -1,0 +1,31 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    text-align: center;
+    width: 400px;
+    border: 1px solid black;
+}
+#amountOfDice{
+    width: 50px;
+    text-align: center;
+}
+#rollDiceBtn{
+    margin: 10px;
+}
+#diceImg{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+#diceImg img{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
