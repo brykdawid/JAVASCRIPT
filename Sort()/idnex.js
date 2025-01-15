@@ -24,5 +24,5 @@ const people = [{name: "dawid", age: 30, gpa: 3.0},
 people.sort((a,b) => a.age - b.age)
 console.log(people )
 
-people.sort((a, b) => a.name.localeCompare(b.name))
+people.sort((a, b) => a.name.localeCompare(b.name)) //sortowanie po name alfabetycznie
 console.log(people)

@@ -1,0 +1,33 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+}
+.content button{
+    margin-top: 15px;
+    font-size: 1em;
+    color: white;
+    border-radius: 10px;
+}
+#start{
+    background-color: rgb(19, 201, 19);
+}
+#stop{
+    background-color: red;
+}
+#reset{
+    background-color: blue;
+}

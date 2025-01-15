@@ -1,0 +1,24 @@
+*{
+    background-color: black;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.clock-container{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    
+}
+
+#clock{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4em;
+    text-align: center;
+    border: 1px solid white;
+    backdrop-filter: blur(20px);
+    background-color: rgba(168, 175, 175, 0.445);
+}
