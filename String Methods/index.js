@@ -37,3 +37,7 @@ let phoneNumber3 = "123-456-789";
 phoneNumber3 = phoneNumber3.padEnd(15, "0"); //wybieramy dlugosc stringa, mozemy dac znak na ktory ma sie konczyc
 console.log(phoneNumber3)
 
+let phoneNumber4 = "123-123-123";
+phoneNumber4 = phoneNumber4.split(/[-+]/)
+console.log(phoneNumber4)
+console.log(phoneNumber4.at(-1))
