@@ -8,29 +8,6 @@ function clearAll(){
     display.value = "";
 }
 
-function calculate(){
-    try{
-        if(display.value.includes("^") && display.value.includes("e")){
-            display.value = display.value.replaceAll("^", "**")
-            display.value = display.value.replaceAll("e","2.71")
-        }
-        else if(display.value.includes("^" )){
-            display.value = display.value.replaceAll("^", "**")
-            display.value = eval(display.value)
-        }
-        else if(display.value.includes("e")){
-            display.value = display.value.replaceAll("e",2,71)
-            display.value = eval(display.value.toFixed(2))
-        }
-        else{
-        display.value = eval(display.value)
-        }
-    }
-    catch(error){
-        display.value = "Error"
-    }
-    
-}
 function negativeNum(input){
     display.value = `${input}${display.value}`
 
@@ -123,4 +100,52 @@ function cbrt3(){
     let provideNum = Math.cbrt(number);
     display.value = provideNum
 
+}
+
+function log(){
+    const values = display.value.split(/[-+,/%*]/)
+    console.log(values)
+    const number = values.at(-1)
+    let provideNum = Math.log(number);
+    display.value = provideNum
+}
+
+function log10(){
+    const values = display.value.split(/[-+,/%*]/)
+    console.log(values)
+    const number = values.at(-1)
+    let provideNum = Math.log10(number);
+    display.value = provideNum
+}
+function euler(input){
+    display.value += input
+    console.log(display.value)
+
+}
+
+
+
+
+function calculate(){
+    try{
+        if(display.value.includes("^") && display.value.includes("e")){
+            display.value = display.value.replaceAll("^", "**")
+            display.value = display.value.replaceAll("e","2.71")
+        }
+        if(display.value.includes("^" )){
+            display.value = display.value.replaceAll("^", "**")
+            display.value = eval(display.value)
+        }
+        if(display.value.includes("e")){
+            display.value = display.value.replaceAll("e","2.71")
+            display.value = eval(display.value.toFixed(2))
+        }
+        else{
+        display.value = eval(display.value)
+        }
+    }
+    catch(error){
+        display.value = "Error"
+    }
+    
 }

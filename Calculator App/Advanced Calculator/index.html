@@ -36,8 +36,8 @@
                     <button onclick="sqrt2()" id="complex-Btn">sqrt^2</button>
                     <button onclick="cbrt3()" id="complex-Btn">cbrt^3</button>
                     <button id="complex-Btn">sqrt^y</button>
-                    <button id="complex-Btn">ln</button>
-                    <button id="complex-Btn">log10</button>
+                    <button onclick="log()" id="complex-Btn">ln</button>
+                    <button onclick="log10()" id="complex-Btn">log10</button>
                     <button  onclick="appendToDisplay('4')" id="number-btn">4</button>
                     <button  onclick="appendToDisplay('5')" id="number-btn">5</button>
                     <button  onclick="appendToDisplay('6')" id="number-btn">6</button>
@@ -46,7 +46,7 @@
                     <button id="complex-Btn">sin</button>
                     <button id="complex-Btn">cos</button>
                     <button id="complex-Btn">tan</button>
-                    <button id="complex-Btn">e</button>
+                    <button onclick="euler('*2.71828182')" id="complex-Btn">e</button>
                     <button id="complex-Btn">EE</button>
                     <button onclick="appendToDisplay('1')" id="number-btn">1</button>
                     <button onclick="appendToDisplay('2')" id="number-btn">2</button>
@@ -69,7 +69,8 @@
         </div>
     </div>
     <p>Calculate only 2 numbers at once</p>
-    <p>Use complex functions on single numbers ex. "7172!" "27 sqrt2" etc</p>
+    <p>Use complex functions on single numbers ex. "x!" "x sqrt2" etc</p>
+    <p>List of complex single functions: 10^x ; 1/x ; sqrt^2 ; cbrt^3 ; ln ; e </p>
     
 
     <script src="index.js"></script>
