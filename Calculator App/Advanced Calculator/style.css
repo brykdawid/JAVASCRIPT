@@ -87,3 +87,7 @@ button{
 #complex-Btn:active{
     background-color: rgb(150, 147, 147);;
 }
+p{
+    text-align: center;
+    color: white;
+}

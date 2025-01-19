@@ -32,8 +32,7 @@ function calculate(){
     
 }
 function negativeNum(input){
-
-    display.value = `-${display.value}`
+    display.value = `${input}${display.value}`
 
 }
 
@@ -44,19 +43,23 @@ function pow3rd(input){
     display.value += input;
 }
 function powE(){
-    const values = display.value.split(/[-,+/%]/);
+    const values = display.value.split(/[-,+/*%]/);
     const lastValue = values.at(-1);
     display.value = `e^${lastValue}`;
 
 }
+function powX(input){
+    display.value += input
+
+}
 function pow10(){
-    const values = display.value.split(/[-,+/%]/);
+    const values = display.value.split(/[-,+*/%]/);
     const lastValue = values.at(-1);
     display.value = `10^${lastValue}`;
 }
 function percentage(input){
     display.value += input;
-    const values = display.value.split(/[-,+/%]/);
+    const values = display.value.split(/[-,+/*%]/);
     console.log(values)
     const firstValue = values.at(0)
     console.log(firstValue)
@@ -90,9 +93,34 @@ function factorial(input){
     display.value = total
     
 }
+function divideByX(){
+    const values = display.value.split(/[-+,/%*]/)
+    console.log(values)
+    const number = values.at(-1)
+    let provideNum = `(1/${number})`
+    display.value = provideNum
+}
+function funcPI(input){
+    display.value += `*${input}`
+}
+function randFun(){
+    const randomNum = Math.random().toFixed(8);
+    console.log(randomNum)
+    display.value = `${display.value}${randomNum}`
+    
+}
+function sqrt2(){
+    const values = display.value.split(/[-+,/%*]/)
+    console.log(values)
+    const number = values.at(-1)
+    let provideNum = Math.sqrt(number);
+    display.value = provideNum
+}
+function cbrt3(){
+    const values = display.value.split(/[-+,/%*]/)
+    console.log(values)
+    const number = values.at(-1)
+    let provideNum = Math.cbrt(number);
+    display.value = provideNum
 
-
-function hdmi(){
-    const hdmi = `podepnij tutaj`
-    console.log(hdmi)
 }

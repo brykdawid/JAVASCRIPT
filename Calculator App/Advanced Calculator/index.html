@@ -25,16 +25,16 @@
                     <button id="complex-Btn">2nd</button>
                     <button onclick="pow2nd('^2')" id="complex-Btn">x^2</button>
                     <button onclick="pow3rd('^3')" id="complex-Btn">x^3</button>
-                    <button onclick="powX()" id="complex-Btn">x^y</button>
+                    <button onclick="powX('^')" id="complex-Btn">x^y</button>
                     <button onclick="powE()" id="complex-Btn">e^x</button>
                     <button onclick="pow10()" id="complex-Btn">10^x</button>
                     <button  onclick="appendToDisplay('7')" id="number-btn">7</button>
                     <button  onclick="appendToDisplay('8')" id="number-btn">8</button>
                     <button  onclick="appendToDisplay('9')" id="number-btn">9</button>
                     <button  onclick="appendToDisplay('*')" id="right-Btn">*</button>
-                    <button id="complex-Btn">1/x</button>
-                    <button id="complex-Btn">sqrt^2</button>
-                    <button id="complex-Btn">sqrt^3</button>
+                    <button onclick="divideByX()" id="complex-Btn">1/x</button>
+                    <button onclick="sqrt2()" id="complex-Btn">sqrt^2</button>
+                    <button onclick="cbrt3()" id="complex-Btn">cbrt^3</button>
                     <button id="complex-Btn">sqrt^y</button>
                     <button id="complex-Btn">ln</button>
                     <button id="complex-Btn">log10</button>
@@ -48,19 +48,19 @@
                     <button id="complex-Btn">tan</button>
                     <button id="complex-Btn">e</button>
                     <button id="complex-Btn">EE</button>
-                    <button  onclick="appendToDisplay('1')" id="number-btn">1</button>
-                    <button  onclick="appendToDisplay('2')" id="number-btn">2</button>
-                    <button  onclick="appendToDisplay('3')" id="number-btn">3</button>
-                    <button  onclick="appendToDisplay('+')" id="right-Btn">+</button>
+                    <button onclick="appendToDisplay('1')" id="number-btn">1</button>
+                    <button onclick="appendToDisplay('2')" id="number-btn">2</button>
+                    <button onclick="appendToDisplay('3')" id="number-btn">3</button>
+                    <button onclick="appendToDisplay('+')" id="right-Btn">+</button>
                     <button id="complex-Btn">mode</button>
                     <button id="complex-Btn">sinh</button>
                     <button id="complex-Btn">cosh</button>
                     <button id="complex-Btn">tanh</button>
-                    <button id="complex-Btn">PI</button>
+                    <button onclick="funcPI('3.14')" id="complex-Btn">PI</button>
                     <button id="complex-Btn">Deg</button>
-                    <button id="number-btn">Rand</button>
-                    <button  onclick="appendToDisplay('0')" id="number-btn">0</button>
-                    <button  onclick="appendToDisplay('.')" id="number-btn">.</button>
+                    <button onclick="randFun()" id="number-btn">Rand</button>
+                    <button onclick="appendToDisplay('0')" id="number-btn">0</button>
+                    <button onclick="appendToDisplay('.')" id="number-btn">.</button>
                     <button onclick="calculate()" id="right-Btn">=</button>
 
 
@@ -68,6 +68,8 @@
             </div>
         </div>
     </div>
+    <p>Calculate only 2 numbers at once</p>
+    <p>Use complex functions on single numbers ex. "7172!" "27 sqrt2" etc</p>
     
 
     <script src="index.js"></script>
