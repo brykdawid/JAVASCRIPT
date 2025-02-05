@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+#display{
+    display: flex;
+    justify-content: center;
+    
+}
+#display button{
+    margin: 10px;
+    font-size: 7rem;
+}
+.rock{
+    background-color: hsl(0, 0%, 70%);
+    border-radius: 100%;
+}
+.rock:hover{
+    background-color: hsla(0, 0%, 70%, 0.507);
+}
+.paper{
+    background-color: hsl(249, 83%, 48%);
+    border-radius: 100%;
+}
+.paper:hover{
+    background-color: hsla(249, 83%, 48%, 0.527);
+}
+.scissors{
+    background-color: hsl(283, 83%, 48%);
+    border-radius: 100%;
+}
+.scissors:hover{
+    background-color: hsla(283, 83%, 48%, 0.671);
+}
+h3{
+    text-align: center;
+}
+#gameDisplay{
+    text-align: center;
+}
+#resultDisplay{
+    font-size: 3rem;
+}
+.scoreDisplay{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+.greenText, #playerScoreDisplay{
+    color: green;
+}
+.redText, #computerScoreDisplay{
+    color: red;
+}
