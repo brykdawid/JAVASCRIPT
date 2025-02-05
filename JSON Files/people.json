@@ -1,0 +1,24 @@
+[{
+    "name": "Mateusz",
+    "age": 20,
+    "isEmployed": true,
+    "hobbies": ["CS2", "CSGO","Pilka Nozna"]
+},
+{
+    "name": "Magda",
+    "age": 40,
+    "isEmployed": false,
+    "hobbies": ["CS2", "CSGO","Pilka Nozna"]
+},
+{
+    "name": "Kamil",
+    "age": 55,
+    "isEmployed": true,
+    "hobbies": ["CS2", "CSGO","Pilka Nozna"]
+},
+{
+    "name": "Tymek",
+    "age": 10,
+    "isEmployed": false,
+    "hobbies": ["CS2", "CSGO","Pilka Nozna"]
+}]
